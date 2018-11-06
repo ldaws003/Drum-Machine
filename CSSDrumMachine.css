@@ -1,0 +1,52 @@
+audio { 
+   display: none;
+}
+
+#display-wrapper {
+  background-color: white;
+  border: none;
+  text-align: center;
+  width: 75%;
+  height: 30px;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#display {
+  display: inline-block;
+  margin-top: 5px;
+  font-family: Helvetica;
+}
+
+#drum-machine {
+  text-align: center;
+  background-color: blue;
+  padding: 20px;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+button {
+  width: 60px;
+  height: 50px;
+  background-color: hsla(97, 2%, 73%, 1);
+}
+
+button:hover {
+  background-color: hsla(97, 2%, 50%, 1);
+}
+
+#drumpad-wrapper{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 70px 70px 70px;
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+#centering-wrapper {
+  display: inline-block;
+}
